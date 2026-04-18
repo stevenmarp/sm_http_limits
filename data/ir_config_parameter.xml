@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="sm_http_limits_max_content_length" model="ir.config_parameter">
+            <field name="key">sm_http_limits.max_content_length</field>
+            <field name="value">536870912</field>
+        </record>
+        <record id="sm_http_limits_max_form_memory_size" model="ir.config_parameter">
+            <field name="key">sm_http_limits.max_form_memory_size</field>
+            <field name="value">536870912</field>
+        </record>
+    </data>
+</odoo>
